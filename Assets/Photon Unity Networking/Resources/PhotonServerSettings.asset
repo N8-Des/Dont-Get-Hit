@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppID: f4d94899-8e84-4d1f-8b97-6999c688cf06
+  VoiceAppID: 
+  ChatAppID: 
+  HostType: 1
+  PreferredRegion: 1
+  EnabledRegions: -1
+  Protocol: 0
+  ServerAddress: 
+  ServerPort: 5055
+  VoiceServerPort: 5055
+  JoinLobby: 0
+  EnableLobbyStatistics: 0
+  PunLogging: 0
+  NetworkLogging: 1
+  RunInBackground: 1
+  RpcList:
+  - Chat
+  - ColorRpc
+  - DestroyRpc
+  - DoJump
+  - Flash
+  - InstantiateRpc
+  - Marco
+  - PickupItemInit
+  - Polo
+  - PunPickup
+  - PunPickupSimple
+  - PunRespawn
+  - RequestForPickupItems
+  - RequestForPickupTimes
+  - TaggedPlayer
+  - RPC_LoadGameOthers
+  - RPC_LoadedGameScene
+  - RPC_CreatePlayer
+  - RPC_SetTeam
+  - addPlayer
+  - RPC_SetPlayers
+  - RPC_SetEverything
+  - RPC_setUpJSON
+  - RPC_SetUpJSON
+  - RPC_SetActive
+  - RPC_TakeDamage
+  - takeHit
+  - RPC_TakeHit
+  - RPC_BodyUpdate
+  - RPC_SetNumbers
+  - RPC_BallPosition
+  - RPC_HitPlayer
+  - RPC_SetPosition
+  - RPC_ImmolateCurveball
+  - setObjectPosition
+  - turnOnObject
+  - RPC_ImmolatePuddle
+  - RPC_SetTrails
+  - OnPhotonSerializeView
+  - RPC_MoveBall
+  - UpdateTransform
+  - RPC_UpdateTransform
+  - RPC_SetVelocity
+  - RPC_SetTeleport
+  - RPC_Position
+  - RPC_Kill
+  - RPC_SetRealPosition
+  - playerDead
+  - RPC_Die
+  - resetEverything
+  - RPC_StartRound
+  - RPC_Reset
+  - RPC_PlayerDead
+  - RPC_SyncInt
+  - RPC_EndCountdown
+  - setImage
+  - RPC_SetImage
+  - RPC_SetSwing
+  - RPC_Bunt
+  - RPC_SetBat
+  - RPC_KillMe
+  - gravPull
+  - RPC_GravPull
+  - RPC_SetBall
+  - RPC_SetPress
+  - RPC_GetPulled
+  - RPC_PressUlt
+  - RPC_SpeedChange
+  - RPC_Sporeshroom
+  - RPC_HealMe
+  - RPC_ParticleActivate
+  - RPC_TakeHeal
+  - RPC_RampagoThrow
+  - RPC_Stunned
+  - RPC_SetPrevious
+  - changeList
+  - RPC_ChangeList
+  - RPC_SetPlayerTeam
+  - RPC_SetInvis
+  - RPC_ShadeE
+  - startSpike
+  - RPC_StartSpike
+  - RPC_StartGame
+  - RPC_SetPlayerID
+  - RPC_SetFinished
+  - RPC_SyncLists
+  - RPC_SetPlayer
+  - RPC_ForceDie
+  - RPC_PressE
+  - RPC_SetDodgeballEffects
+  - showKill
+  - RPC_ShowKill
+  - RPC_KilledPlayer
+  - RPC_SetStats
+  - RPC_ChangeStage
+  - RPC_SetStage
+  - RPC_SetSpliceSplit
+  - RPC_Split
+  - setFactory
+  - RPC_SetFactory
+  - setAnim
+  - RPC_CommanderGrenade
+  - lifelinkStart
+  - RPC_LifelinkStart
+  - RPC_SetMap
+  DisableAutoOpenWizard: 1
